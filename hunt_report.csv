@@ -1,0 +1,65 @@
+﻿time,event_id,severity,score,image,detail,findings
+-,11,HIGH,7,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_x03sqkx4.ls0.ps1,"Command/script interpreter, Executable/script created, File created in risky directory"
+-,11,HIGH,7,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_xtmbaa0f.kop.ps1,"Command/script interpreter, Executable/script created, File created in risky directory"
+-,11,HIGH,7,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_1fgmnjgx.wgb.ps1,"Command/script interpreter, Executable/script created, File created in risky directory"
+-,11,HIGH,7,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_knh5dium.dng.ps1,"Command/script interpreter, Executable/script created, File created in risky directory"
+-,11,HIGH,7,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_m430qo5s.lcd.ps1,"Command/script interpreter, Executable/script created, File created in risky directory"
+-,11,HIGH,7,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_pfp4eulj.zhn.ps1,"Command/script interpreter, Executable/script created, File created in risky directory"
+-,11,MEDIUM,5,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_jufcfawr.rst.psm1,"Command/script interpreter, File created in risky directory"
+-,11,MEDIUM,5,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_wu0u0kpm.sit.psm1,"Command/script interpreter, File created in risky directory"
+-,11,MEDIUM,5,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_4fkoofqm.51l.psm1,"Command/script interpreter, File created in risky directory"
+-,11,MEDIUM,5,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_qahcvvsw.cv0.psm1,"Command/script interpreter, File created in risky directory"
+-,11,MEDIUM,5,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_ywsds2j4.14o.psm1,"Command/script interpreter, File created in risky directory"
+-,11,MEDIUM,5,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_ownn3w0g.ynu.psm1,"Command/script interpreter, File created in risky directory"
+-,22,MEDIUM,4,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe,priceengine-public-service-ecomprod01.ol.epicgames.com,"Long DNS query, Unusually long DNS label"
+-,11,MEDIUM,3,C:\Program Files\Google\Chrome\Application\chrome.exe,C:\Users\wiyad\AppData\Local\Temp\3a8005ba-1b6b-4a4b-981a-79b3e843cddb.tmp,File created in risky directory
+-,11,MEDIUM,3,C:\Program Files\Google\Chrome\Application\chrome.exe,C:\Users\wiyad\AppData\Local\Temp\3a8005ba-1b6b-4a4b-981a-79b3e843cddb.tmp,File created in risky directory
+-,11,MEDIUM,3,C:\Users\wiyad\AppData\Local\OpenAI\Codex\bin\896a0166b774037a\codex.exe,C:\Users\wiyad\AppData\Local\Temp\etilqs_Up5vDdxBB73oms0,File created in risky directory
+-,11,MEDIUM,3,C:\Users\wiyad\AppData\Local\OpenAI\Codex\bin\896a0166b774037a\codex.exe,C:\Users\wiyad\AppData\Local\Temp\etilqs_bF6BNm1xFdJtrF4,File created in risky directory
+-,11,MEDIUM,3,C:\Users\wiyad\AppData\Local\OpenAI\Codex\bin\896a0166b774037a\codex.exe,C:\Users\wiyad\AppData\Local\Temp\etilqs_M8bzvbIRRl0Vsub,File created in risky directory
+-,11,MEDIUM,3,C:\Users\wiyad\AppData\Local\OpenAI\Codex\bin\896a0166b774037a\codex.exe,C:\Users\wiyad\AppData\Local\Temp\etilqs_crmL1mKqb8UoBvY,File created in risky directory
+-,1,INFO,2,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=1} -MaxEvents 150 | Format-List TimeCreated,Message""",Command/script interpreter
+-,1,INFO,2,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=22} -MaxEvents 150 | Format-List TimeCreated,Message""",Command/script interpreter
+-,1,INFO,2,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=11} -MaxEvents 150 | Format-List TimeCreated,Message""",Command/script interpreter
+-,1,INFO,2,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=3} -MaxEvents 150 | Format-List TimeCreated,Message""",Command/script interpreter
+-,1,INFO,2,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=1} -MaxEvents 150 | Format-List TimeCreated,Message""",Command/script interpreter
+-,1,INFO,2,C:\Windows\System32\cmd.exe,"Parent=C:\Users\wiyad\AppData\Local\OpenAI\Codex\bin\896a0166b774037a\codex.exe | Command=""C:\WINDOWS\system32\cmd.exe"" /d /c scripts\launch_code_review_mcp.cmd",Command/script interpreter
+-,1,INFO,2,C:\Windows\System32\cmd.exe,"Parent=C:\Users\wiyad\AppData\Local\OpenAI\Codex\bin\896a0166b774037a\codex.exe | Command=""C:\WINDOWS\system32\cmd.exe"" /d /s /c call ./scripts/launch_codex_app_tools_mcp.cmd ./server.mjs",Command/script interpreter
+-,3,INFO,2,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe,172.17.203.233:53197 | Initiated=false,Uncommon destination port: 53197
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,127.0.0.1:41784 | Initiated=false,Uncommon destination port: 41784
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,127.0.0.1:41784 | Initiated=true,Uncommon destination port: 41784
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,0:0:0:0:0:0:0:1:8502 | Initiated=false,Uncommon destination port: 8502
+-,3,INFO,2,C:\Program Files\Google\Chrome\Application\chrome.exe,0:0:0:0:0:0:0:1:8502 | Initiated=true,Uncommon destination port: 8502
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,0:0:0:0:0:0:0:1:8502 | Initiated=false,Uncommon destination port: 8502
+-,3,INFO,2,C:\Program Files\Google\Chrome\Application\chrome.exe,0:0:0:0:0:0:0:1:8502 | Initiated=true,Uncommon destination port: 8502
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,0:0:0:0:0:0:0:1:8502 | Initiated=false,Uncommon destination port: 8502
+-,3,INFO,2,C:\Program Files\Google\Chrome\Application\chrome.exe,0:0:0:0:0:0:0:1:8502 | Initiated=true,Uncommon destination port: 8502
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,0:0:0:0:0:0:0:1:8502 | Initiated=false,Uncommon destination port: 8502
+-,3,INFO,2,C:\Program Files\Google\Chrome\Application\chrome.exe,0:0:0:0:0:0:0:1:8502 | Initiated=true,Uncommon destination port: 8502
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,0:0:0:0:0:0:0:1:8502 | Initiated=false,Uncommon destination port: 8502
+-,3,INFO,2,C:\Program Files\Google\Chrome\Application\chrome.exe,0:0:0:0:0:0:0:1:8502 | Initiated=true,Uncommon destination port: 8502
+-,3,INFO,2,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe,172.17.203.233:53197 | Initiated=false,Uncommon destination port: 53197
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,0:0:0:0:0:0:0:1:8502 | Initiated=false,Uncommon destination port: 8502
+-,3,INFO,2,C:\Program Files\Google\Chrome\Application\chrome.exe,0:0:0:0:0:0:0:1:8502 | Initiated=true,Uncommon destination port: 8502
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,0:0:0:0:0:0:0:1:8502 | Initiated=false,Uncommon destination port: 8502
+-,3,INFO,2,C:\Program Files\Google\Chrome\Application\chrome.exe,0:0:0:0:0:0:0:1:8502 | Initiated=true,Uncommon destination port: 8502
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,127.0.0.1:27681 | Initiated=false,Uncommon destination port: 27681
+-,3,INFO,2,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,127.0.0.1:27681 | Initiated=true,Uncommon destination port: 27681
+-,3,INFO,2,C:\Windows\System32\svchost.exe,172.17.203.169:51213 | Initiated=false,Uncommon destination port: 51213
+-,3,INFO,2,C:\Windows\System32\svchost.exe,172.17.203.169:51213 | Initiated=false,Uncommon destination port: 51213
+-,3,INFO,2,C:\Windows\System32\svchost.exe,172.17.203.218:57080 | Initiated=false,Uncommon destination port: 57080
+-,3,INFO,2,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.203.157:34547 | Initiated=false,Uncommon destination port: 34547
+-,3,INFO,2,C:\Program Files\Google\Chrome\Application\chrome.exe,172.17.203.157:34547 | Initiated=false,Uncommon destination port: 34547
+-,3,INFO,2,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,fe80:0:0:0:90cc:8aff:fe11:dad0:41972 | Initiated=false,Uncommon destination port: 41972
+-,3,INFO,2,C:\Windows\System32\svchost.exe,fe80:0:0:0:90cc:8aff:fe11:dad0:41972 | Initiated=false,Uncommon destination port: 41972
+-,3,INFO,2,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe,172.17.203.233:53197 | Initiated=false,Uncommon destination port: 53197
+-,3,INFO,2,C:\Windows\System32\svchost.exe,172.17.203.169:51213 | Initiated=false,Uncommon destination port: 51213
+-,11,INFO,2,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive,Command/script interpreter
+-,11,INFO,2,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive,Command/script interpreter
+-,22,INFO,2,C:\Windows\Sysmon64.exe,4.5.2.3.9.a.6.c.4.6.b.f.4.f.8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.,Long DNS query
+-,22,INFO,2,C:\Windows\Sysmon64.exe,c.c.b.b.9.d.d.b.5.c.5.4.0.d.8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.,Long DNS query
+-,22,INFO,2,C:\Windows\Sysmon64.exe,8.f.3.7.a.4.4.3.9.c.4.2.7.5.8.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.,Long DNS query
+-,22,INFO,2,C:\Windows\Sysmon64.exe,7.8.6.a.b.6.d.3.1.e.7.2.c.9.c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.,Long DNS query
+-,22,INFO,2,C:\Windows\Sysmon64.exe,0.5.4.3.c.5.5.0.6.1.0.3.5.b.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.,Long DNS query
+-,22,INFO,2,C:\Windows\Sysmon64.exe,7.c.d.e.8.e.7.3.a.e.6.0.1.2.c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.,Long DNS query
+-,22,INFO,2,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe,entitlement-public-service-prod08.ol.epicgames.com,Unusually long DNS label
