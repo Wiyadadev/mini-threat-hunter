@@ -1,3 +1,6 @@
+## Dashboard Demo
+
+![Mini Threat Hunter Dashboard](mini-threat-hunter-demo.png)
 \# Mini Threat Hunter Dashboard
 
 
